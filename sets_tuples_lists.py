@@ -85,3 +85,24 @@ for car in cars:
     if len(cars) >= 10:
         print("You have reached the maximum number of cars.")
         break
+
+# challenge
+#create a list of friends
+friends = ["Vikshay"]
+# add 4 new friends in the list
+for friend in friends:
+    requestFriend = input("Enter the name of a friend: ")
+    friends.append(requestFriend)
+    if len(friends) >= 5:
+        print("You have reached the maximum number of friends.")
+        break
+# print out the list of friends in an f-string
+print(f"Your friends are: {friends}")
+# replace the last element in the list with another friend
+friends[-1] = "Sally"
+# print out the list of friends in an f-string
+print(f"Your friends are: {friends}")
+# insert a new friend in the 2nd position
+friends.insert(2, "Hayden")
+# print out the list of friends in an f-string
+print(f'Your friends are: {friends}')
