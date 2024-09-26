@@ -62,3 +62,18 @@ print(f"The cars in the list are: {cars}")
 # Replace the last element in the list with another car
 cars[-1] = "Aston Martin"
 print(cars)
+# Replace the 3rd element in the list with another car
+# Print out the list of cars in an f-string
+cars[2] = "Nissan"
+print(f"The cars in the list are: {cars}")
+# insert a new car in the 2nd position
+# print out the list of cars in an f-string
+cars.insert(0, "KIA")
+print(f"The cars in the list are {cars}")
+# remove the 3rd element in the list
+# print out the list of cars in an f-string
+cars.remove("Volvo")
+print(f"The cars in the list are: {cars}")
+#check if the list contains the car "Ford"
+# print out the result in an f-string
+print("Ford" in cars)
