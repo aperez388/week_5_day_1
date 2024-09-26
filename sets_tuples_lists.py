@@ -49,7 +49,16 @@ fruits = ["apple", "orange", "banana", "coconut", "kiwi", "watermelon", "mango",
 
 # fruits.clear() # Removes everything from a list.
 
-print(fruits.index("apple"))
+# print(fruits.index("apple"))
 
-for fruit in fruits:
-    print(fruit)
+# for fruit in fruits:
+#     print(fruit)
+
+cars = ["Ford", "Volvo", "BMW"]
+# Add 4 new cars in the list
+cars.append("Honda")
+# print out the list of cars in an f-string that says "The cars in the list are:"
+print(f"The cars in the list are: {cars}")
+# Replace the last element in the list with another car
+cars[-1] = "Aston Martin"
+print(cars)
